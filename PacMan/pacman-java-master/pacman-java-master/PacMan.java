@@ -659,6 +659,7 @@ public class PacMan extends JPanel implements ActionListener, KeyListener {
             ghost.updateDirection(newDirection);
         }
     }
+    
     @Override
     public void actionPerformed(ActionEvent e) {
         move();
